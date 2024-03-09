@@ -1,0 +1,38 @@
+Title=Amazon Bestselling Books
+Data Flow Diagram:-
+*Importing Libraries(modules)
+	->numpy  
+	->pandas  
+	->seaborn
+	->matplotlib 
+	->plotly
+		=>express
+		=>graph_objs
+		=>subplots
+		=>offline
+	->missingno
+	->pandas_profiling
+	->nltk
+		=>sentiment.vader
+	->sklearn
+		=>preprocessing
+		=>model_selection
+		=>metrics
+		=>ensemble
+		=>pipeline
+		=>linear_model
+		=>feature_extraction
+		=>decomposition
+*Loading Data
+*Data Cleaning
+	->SentimentIntensityAnalyzer
+*Exploratory Data Analysis(EDA)
+	->Visualisation=Matplolib, plotly & Seaborn
+	->Pandas Profilling
+*Data Processing
+	->Steps involved in Data Preprocessing
+		=>Encoding categorical variables = LabelEncoder,TfidfVectorizer,TruncatedSVD 
+*Model Selection
+	->Model= LinearRegression,RandomForestRegressor
+*Model Testing
+	->Training = mean_squared_error,r2_score
